@@ -37,6 +37,7 @@ public class Main_4 {
              randomIntGame();
 
           }else {
+              break;
           }
       }
     }
