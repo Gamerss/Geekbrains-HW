@@ -5,10 +5,10 @@ import java.util.Scanner;
 
 public class Main_4 {
     public static void main(String[] args) {
-        randomIntGame();
+        randomNumGame();
 
     }
-    public static void randomIntGame(){
+    public static void randomNumGame(){
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
         int randomInt = random.nextInt(10);
@@ -34,7 +34,7 @@ public class Main_4 {
           System.out.println("Повторить игру еще раз? 1 – да / 0 – нет»");
           int number = scanner.nextInt();
           if (number==1){
-             randomIntGame();
+              randomNumGame();
 
           }else {
               break;
