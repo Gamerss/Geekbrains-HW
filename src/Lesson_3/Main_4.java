@@ -4,6 +4,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Main_4 {
+    public static final int COUNT_ATTEMPTS= 3;
     public static void main(String[] args) {
         randomNumGame();
 
@@ -14,7 +15,7 @@ public class Main_4 {
         int randomInt = random.nextInt(10);
 
         int attempt = 0;
-      while (attempt<3) {
+      while (attempt<COUNT_ATTEMPTS) {
           System.out.println("Введите число от 0 до 9 : ");
           int number = scanner.nextInt();
 
